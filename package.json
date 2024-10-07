@@ -4,8 +4,11 @@
   "version": "1.0.0",
   "description": "this is react app",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
+    
     "test": "jest"
   },
   "keywords": [
