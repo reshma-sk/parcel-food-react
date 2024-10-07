@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client';
 const App = ()=>{
     return(
         <div>
-          <h1>hello react</h1>
+          <h1>hello react viewers</h1>
         </div>
     )
 }
